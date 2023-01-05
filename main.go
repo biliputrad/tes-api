@@ -35,7 +35,7 @@ func main() {
 	log.Println("Registering table..")
 	err = config.Club(db)
 	if err != nil {
-		log.Fatal("[DATABASE] Database staff cant migrate")
+		log.Fatal("[DATABASE] Database club cant migrate")
 	}
 	log.Println("[DATABASE] Database migrate success.")
 
